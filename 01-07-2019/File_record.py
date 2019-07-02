@@ -1,0 +1,6 @@
+f = open("new1.txt", 'a')
+f.write('\n')
+f.write(input("Enter a data"))
+f = open("new1.txt", "r")
+print(f.seek(1, 2))
+print(f.read())
